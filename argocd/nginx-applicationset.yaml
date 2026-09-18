@@ -12,6 +12,7 @@ spec:
           - env: staging
           - env: qa
           - env: prod
+          - env: test
 
   template:
     metadata:
