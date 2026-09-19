@@ -20,20 +20,19 @@ spec:
 
     spec:
       project: default
-
+  
       source:
         repoURL: https://github.com/rabeykimo-max/argocd-lab.git
         targetRevision: main
         path: 'apps/nginx/overlays/{{env}}'
-
+  
       destination:
         server: https://kubernetes.default.svc
         namespace: 'nginx-{{env}}'
-
+  
       syncPolicy:
         automated:
           prune: true
           selfHeal: true
-
         syncOptions:
           - CreateNamespace=true
