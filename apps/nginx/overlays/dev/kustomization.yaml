@@ -10,5 +10,10 @@ replicas:
   - name: nginx
     count: 1
 
-commonLabels:
-  environment: dev
+images:
+  - name: nginx
+    newTag: "1.29.1"
+
+labels:
+  - pairs:
+      environment: dev
