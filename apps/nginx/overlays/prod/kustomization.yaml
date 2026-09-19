@@ -12,7 +12,7 @@ replicas:
 
 images:
   - name: nginx
-    newTag: "this-tag-does-not-exist-lab"
+    newTag: "1.29.1"
 
 labels:
   - pairs:
