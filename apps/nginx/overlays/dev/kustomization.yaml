@@ -12,7 +12,8 @@ replicas:
 
 images:
   - name: nginx
-    newTag: "1.29.2"
+    newName: 172.31.25.149:30002/devops-lab/jenkins-demo-app
+    newTag: "4"
 
 labels:
   - pairs:
