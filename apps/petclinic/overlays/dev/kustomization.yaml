@@ -10,7 +10,7 @@ replicas:
 
 images:
   - name: 172.31.25.149:30002/devops-lab/petclinic
-    newTag: "test"
+    newTag: "2"
 
 labels:
   - pairs:
